@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build -m",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "analysis": "windicss-analysis"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.5",
@@ -19,6 +20,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "nuxt-windicss": "^0.8.2",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "windicss-analysis": "^0.2.0"
   }
 }
