@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto pl-4">
+  <div class="container-wrapper container mx-auto pl-4 bg-red-100">
     <div>
       <Logo />
       <h1 class="">nuxt-windi</h1>
@@ -17,7 +17,7 @@
 
 <style>
   @layer base {
-    body {
+    .container-wrapper {
       @apply bg-green-100;
     }
   }
